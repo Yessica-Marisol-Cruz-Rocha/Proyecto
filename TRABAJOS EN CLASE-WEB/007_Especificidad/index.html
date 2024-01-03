@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificidad</title>
+    <link rel="shortcut icon" href="/img/icono_web.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <h1>Especificidad</h1>
+    <ol>
+       <li> <h2 id="Selector">Estilos "inline"</h2></li> 
+       <p>Estos son estilos definidos en el documento HTML, que están directamente vinculados al elemento  que se va a estilizar.  </p>
+       <h3 style="color: brown;">Hola mundo inline</h3>
+       <li><h2>Selectores de ID</h2></li>
+       <p>Estos son selectores dirigidos a un elemnto mediante el uso del ID del mismo. Los IDs son únicos; un elemento puede tener solamente un ID, y ese ID puede ser usado solamente una vez dentro de un documento HTML. </p>
+       <h3>Hola Mundo ID</h3>
+       <li><h2>Clases</h2></li>
+       <span>Texto con una clase aplicada</span>  
+       <span> Texto sin clase </span> 
+       <p>Estos son selectores ditigidos a un elemento mediante el uso del ID del mismo. Los IDs son únicos; un elemento puede tener solamente un ID; y ese ID puede ser usado solamente una vez dentro de un documento HTML.</p>
+       <li><h2>Elementos</h2></li>
+       <p>Selecciona todos los elementos del tipo de dado.</p>
+<!--! Font-family sirve para cambiar la fuente-->
+    </ol>
+    <ol class="clase1">
+        <li>elementos</li>
+    </ol>
+    <ol class="clase1">
+        <li>elementos</li>
+    </ol>
+    <ol class="clase1">
+        <li>elementos</li>
+    </ol>
+    
+</body>
+</html>

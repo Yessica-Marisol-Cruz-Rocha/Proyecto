@@ -1,0 +1,17 @@
+/*Selector univeresal*/
+*{
+    color: green;
+}
+
+h2{
+    color: blue;
+}
+
+#Selector{
+    color: rgb(255, 127, 251);
+}
+
+.clase1{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
